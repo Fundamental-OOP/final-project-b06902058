@@ -1,0 +1,23 @@
+// This line is a comment
+// We will first have a definition for each event
+// Then we will draw the map by the symbol.
+// See example for better knows
+
+START_OF_THE_DEFINITION
+$ estate 1000
+# thug 0 0
+@ shop
+% hospital
+& dingo 0 0
+^ null
+END_OF_THE_DEFINITION
+
+START_OF_THE_MAP
+%^^$$$@
+   $  $
+  $&  #
+ $@ $$$
+$$ $$ $
+$  $  $
+$$$&$$$
+END_OF_THE_MAP

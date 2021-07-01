@@ -1,0 +1,8 @@
+stay
+turnaround
+wheelcontrol
+turtle
+stateclear
+robbery
+teleportation
+speedup

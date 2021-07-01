@@ -1,0 +1,12 @@
+START_OF_THE_DEFINITION
+$ estate 1000
+# thug 0 0
+@ shop
+% hospital
+& dingo 0 0
+^ null
+END_OF_THE_DEFINITION
+
+START_OF_THE_MAP
+$$$
+END_OF_THE_MAP
