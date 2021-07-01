@@ -4,7 +4,7 @@
 // See example for better knows
 
 START_OF_THE_DEFINITION
-$ estate 1000
+$ estate 5000
 # thug 0 0
 @ shop
 % hospital

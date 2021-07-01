@@ -23,9 +23,9 @@ public class Main {
         World world = new World(new File("assets/maps/basicMap.txt"), nameToEventMapper, messageHandler);
 
         Mover mover = new WheelMover();
-        roles.add(new Role("Spiderman", 1000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
-        roles.add(new Role("Satoshi", 1000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
-        roles.add(new Role("Gengar", 1000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
+        roles.add(new Role("Spiderman", 30000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
+        roles.add(new Role("Satoshi", 30000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
+        roles.add(new Role("Gengar", 30000, world.randomGetGrid(), cardGenerator.getRandomCards(6), messageHandler, mover));
 
         for(int i = 0; i < roles.size(); i++){
             Role role = roles.get(i);
